@@ -1,0 +1,152 @@
+ #bodyContain {
+	margin: 0px;
+	width: 80%;
+	height: 600px;
+	background:#fff;
+	box-shadow: 0px 5px 10px rgba(0,0,0,1);
+}
+
+.Luas{
+	padding: 10px;
+	float:left;
+	width: 300px;
+	height: 300px;
+	/*position: absolute;
+	top: 15px;
+	left: 15px;*/
+	/*border: solid 2px #000;*/
+	font-family: arial;
+	font-size: 12px;
+	color: #555;
+}
+
+.Sempit{
+	/*margin: 10px;*/
+	margin: 0px;
+	float:left;
+	padding: 10px;
+	width: 200px;
+	height: 250px;
+	/*border: solid 2px #000;*/
+	font-family: arial;
+	font-size: 12px;
+	color: #555;
+}
+
+.Sempit2{
+	padding: 10px;
+	float:left;
+	width: 200px;
+	height: 150px;
+	/*border: solid 2px #000;*/
+	font-family: arial;
+	font-size: 12px;
+	color:#555;
+}
+
+table td, tr{
+	padding: 5px;
+	font-family: century;
+	color: #555;
+}
+
+table{
+	margin: 0 px;
+	border-collapse: collapse;
+}
+
+.body {
+	margin: 0px;
+	padding-top: 10px;
+	width: 80%;
+	height: 600px;
+	background: rgba(255,255,255,0.98);
+	box-shadow: 0px 5px 10px rgba(0,0,0,1);
+}
+
+#font {
+	width: 95%;
+	height: 95%;
+	font-family: Georgia;
+}
+
+#store{
+	margin-top: 30px;
+	width: 80%;
+	height: 980px;
+	background:#eee;
+}
+
+.kontak{
+	width: 80%;
+	height: 600px;
+	margin: 0px;
+	background: #eee;
+}
+
+#isikontak{
+	padding: 10px;
+	float:left;
+	width: 200px;
+	height: 180px;
+	/*position: absolute;
+	top: 15px;
+	left: 15px;*/
+	/*border: solid 2px #000;*/
+	font-family: arial;
+	font-size: 12px;
+	color: #666;
+}
+
+.toko{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+#image{
+	width: 1347px;
+	margin-left: 0px;
+	z-index: 2;
+}
+
+.gambar{
+	width: 250px;
+	height: 200px;
+	margin: 0px;
+	padding: 0px;
+	/*border: solid 1px #000;*/
+}
+
+.gambar:hover{
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	 box-shadow: 3px 3px 3px #aaa;
+}
+
+.plus{
+	/*margin: 10px;*/
+	margin-left:70px;
+	margin-right: 50px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	float:left;
+	padding: 10px;
+	width: 200px;
+	height: 250px;
+	/*border: solid 2px #000;*/
+	font-family: aharoni;
+	font-size: 20px;
+}
+
+.plus a{
+	text-decoration: none;
+	color: #555;
+}
+
+#pict{
+	width: 1377px;
+	height: 500px;
+	margin: 0px;
+	padding-top: 30px;
+}

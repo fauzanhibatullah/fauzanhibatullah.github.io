@@ -1,0 +1,88 @@
+#container-card {
+	position:relative;
+	height:200px;
+	width:100px;
+	margin-left:70px;
+	margin-right: 50px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 20px;
+	float:left;
+}
+
+#container-card > div {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100px;
+	height:200px;
+	padding:20px;
+	/*background-image:xaxa.jpg;*/
+	-webkit-transition:1.5s ease-in-out;
+	-moz-transition:1.5s ease-in-out;
+	transition:1.5s ease-in-out;
+	border-radius: 10px;
+}
+
+#container-card > div.back {
+	background-image:kel.jpg;
+	-moz-backface-visibility:hidden;		/*untuk mengatur apakah div-nya terlihat atau tidak. Ada hidden, visible, initial, inherit*/
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	-moz-transform:perspective(800px) rotateY(180deg);		/*Untuk mengaplikasikan animasi 2D dan 3D*/
+	-webkit-transform:perspective(800px) rotateY(180deg);
+	transform:perspective(800px) rotateY(180deg);
+}
+
+#container-card > div.back > .huruf{
+	width: 40px;
+	height: 20px;
+	margin-top: 120px;
+}
+
+#container-card > div.back > .huruf >a{
+	color: #778899;
+	text-decoration: none;
+	font-family: comic sans ms;
+	font-size: 18px;
+}
+
+#container-card > div.back > .huruf >a:hover{
+	color: #00BFFF;
+	text-decoration: none;
+	font-family: comic sans ms;
+	font-size: 18px;
+}
+
+#container-card > div.front {
+	-moz-backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	-moz-transform:perspective(800px) rotateY(0deg);		/*untuk mengatur luas gambar agar bisa bergerak 3D*/
+	-webkit-transform:perspective(800px) rotateY(0deg);
+	transform:perspective(800px) rotateY(0deg);
+
+  -webkit-box-shadow: 5px 5px 5px #aaa;
+  -moz-box-shadow: 5px 5px 5px #aaa;
+  box-shadow: 5px 5px 5px #aaa;
+}
+
+#container-card:hover > div.back  {
+	-moz-transform:perspective(800px) rotateY(0);
+	-webkit-transform:perspective(800px) rotateY(0);
+	transform:perspective(800px) rotateY(0);
+
+  -webkit-box-shadow: 5px 5px 5px #aaa;
+  -moz-box-shadow: 5px 5px 5px #aaa;
+  box-shadow: 5px 5px 5px #aaa;
+}
+
+#container-card:hover > div.front {
+	-webkit-transform:perspective(800px) rotateY(-179.9deg);
+	-moz-transform:perspective(800px) rotateY(-179.9deg);
+	transform:perspective(800px) rotateY(-179.9deg);
+
+}
+
+
+
